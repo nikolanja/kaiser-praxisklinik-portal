@@ -1,0 +1,38 @@
+
+.kaiser-footer {
+    padding-top: 70px;
+    padding-bottom: 10px;
+
+    .name {
+        color: #4a4a4a;
+        font-family: "Open Sans";
+        font-size: 10.5px;
+        font-weight: 600;
+        line-height: 14px;
+
+        .copyright {
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1176px){
+    .kaiser-footer {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media only screen and (max-width: 1176px) and (min-width: 992px){
+    .kaiser-footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .kaiser-footer {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

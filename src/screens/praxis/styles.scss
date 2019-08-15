@@ -1,0 +1,169 @@
+.equipment-technology {
+    .content-cards {
+        display: flex;
+        flex-wrap: wrap;
+
+        .card-item {
+            width: 256px;
+            height: 257px;
+            border-radius: 0 30px;
+            background: linear-gradient(138deg, #09CDE3, #9013FE);
+            align-items: center;
+            justify-content: center;
+            display: flex;
+
+            span {
+                color: #ffffff;
+                font-family: "Open Sans";
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 27px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.section-item {
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1176px){
+    .reception-waiting-section {
+        position: relative;
+        padding: 0 460px 120px calc(50% - 568px); 
+        
+        .reception-waiting-container {
+            width: 100%;
+            display: block;
+            padding-right: 40px;
+        }
+    }
+
+    .content-images {
+        display: flex;
+        padding-top: 100px;
+
+        .img-item {
+            flex: 1;
+            padding: 0 8px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            box-shadow: -3px 4px 14px rgba(0,0,0,0.5);
+        }
+    }
+
+    .roentgen {
+        display: flex;
+
+        .content {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .content-images {
+            flex: 1;
+            padding-top: 0;
+        }
+    }
+
+    .equipment-technology {
+        .content-cards {
+            padding-left: 50px;
+
+            .card-item {
+                margin: 55px 50px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1176px) and (min-width: 992px){
+    .reception-waiting-section {
+        position: relative;
+        padding: 0 460px 100px 20px;
+
+        .reception-waiting-container {
+            width: 100%;
+        }
+    }
+
+    .content-images {
+        display: flex;
+        padding-top: 60px;
+
+        .img-item {
+            flex: 1;
+            padding: 0 8px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            box-shadow: -3px 4px 14px rgba(0,0,0,0.5);
+        }
+    }
+
+    .roentgen {
+        display: flex;
+
+        .content {
+            flex: 1;
+            padding-right: 20px;
+        }
+
+        .content-images {
+            flex: 1;
+            padding-top: 0;
+        }
+    }
+
+    .equipment-technology {
+        .content-cards {
+
+            .card-item {
+                margin: 25px 20px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .reception-waiting-section {
+        padding: 0 40px 100px 40px;
+
+        .reception-waiting-container {
+            padding-top: 100px;
+        }
+    }
+
+    .content-images {
+        padding-top: 100px;
+
+        .img-item {
+            padding: 10px 20px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            box-shadow: -3px 4px 14px rgba(0,0,0,0.5);
+        }
+    }
+
+    .equipment-technology {
+        .content-cards {
+            display: block;
+
+            .card-item {
+                margin: 25px auto;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

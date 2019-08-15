@@ -1,0 +1,110 @@
+.leistungen-section {
+    position: relative;
+}
+
+.paitents {
+    margin-bottom: 70px;
+}
+
+.leistungen-container {
+    min-height: 962px;
+}
+
+.leistungen-section .leistungen-container .service-item .desc .para {
+    background: linear-gradient(136deg, #ecfafd, #f6edff);
+
+    p {
+        color: #4a4a4a;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        white-space: pre-line;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .leistungen-section {
+        padding: 70px 460px 150px 7.8%;
+
+        .leistungen-container{
+            .service-item {
+                position: relative;
+                img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 320px;;
+                    height: auto;
+                    box-shadow: -2px 3px 10px rgba(0,0,0,0.5);
+                }
+
+                div.desc {
+                    padding: 70px 20px;
+                    padding-left: 240px;
+
+                    .para {
+                        padding: 70px 100px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 992px) {
+    .leistungen-section {
+        padding: 70px 460px 150px 7.8%;
+
+        .leistungen-container{
+            .service-item {
+                position: relative;
+                img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: auto;;
+                    height: 269px;
+                    box-shadow: -2px 3px 10px rgba(0,0,0,0.5);
+                }
+
+                div.desc {
+                    padding: 210px 20px 70px 60px;
+
+                    .para {
+                        padding: 70px 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .leistungen-section {
+        padding: 0 40px 100px 40px;
+
+        .leistungen-container{
+            .service-item {
+                padding-top: 20px;
+                position: relative;
+                text-align: center;
+
+                img {
+                    width: 240px;
+                    height: auto;
+                    box-shadow: -2px 3px 10px rgba(0,0,0,0.5);
+                }
+
+                div.desc {
+                    margin: -40px -20px 0 -20px;
+                    padding: 20px;
+
+                    .para {
+                        padding: 30px 30px 20px 30px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,143 @@
+.top-bar {
+    opacity: 0.1;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(138deg, #09CDE3, #9013FE);
+}
+
+@media only screen and (min-width: 1250px){
+    .header-container {
+        display: flex;
+        align-items: flex-end;
+
+        .header-content {
+            height: 198px;
+            display: inline-flex;
+            align-items: flex-end;
+
+            .header-logo {
+                padding-left: 68px;
+                padding-bottom: 37px;
+            }
+            
+            button.navbar-toggler {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 992px){
+    .header-container {
+        display: flex;
+        align-items: flex-end;
+
+        .header-content {
+            height: 198px;
+            display: inline-flex;
+            align-items: flex-end;
+
+            .header-logo {
+                padding-left: 20px;
+                padding-bottom: 37px;
+            }
+
+            button.navbar-toggler {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header-container {
+        .header-content {
+            width: 100%;
+            height: 120px;;
+            position: relative;
+            display: inline-flex;
+            padding: 0 10px 0 20px;
+            -ms-flex-pack: justify !important;
+            -webkit-box-pack: justify !important;
+            justify-content: space-between !important;
+            -ms-flex-align: center;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            -webkit-transition: all .5s cubic-bezier(.685, .0473, .346,1);
+            transition: all .5s cubic-bezier(.685, .0473, .346,1);
+
+            .header-logo {
+                padding: 0;
+            }
+
+            button.navbar-toggler {
+                padding: .25rem .75rem;
+                font-size: 1.25rem;
+                line-height: 1;
+                background-color: transparent;
+                border: 1px solid transparent;
+                border-radius: .25rem;
+                outline: none;
+        
+                .navbar-toggler-bar {
+                    display: block;
+                    position: relative;
+                    width: 22px;
+                    height: 1px;
+                    border-radius: 1px;
+                    background: black;
+                }
+        
+                .nav-top-bar {
+                    transform: rotate(0);
+                }
+        
+                .nav-bottom-bar, .nav-middle-bar, .nav-top-bar {
+                    transition: all .2s;
+                }
+        
+                .nav-middle-bar {
+                    width: 17px;
+                    transition: width .2s linear;
+                }
+        
+                .nav-bottom-bar {
+                    transition: all .2s;
+                    transform: rotate(0);
+                }
+        
+                .navbar-toggler-bar+.navbar-toggler-bar {
+                    margin-top: 7px;
+                }
+        
+                &.toggled {
+                    .nav-top-bar {
+                        transform: rotate(45deg);
+                        transform-origin: 0;
+                    }
+            
+                    .nav-middle-bar {
+                        opacity: 0;
+                    }
+            
+                    .nav-bottom-bar {
+                        transform: rotate(-45deg);
+                        transform-origin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .top-bar {
+        display: none;
+    }
+
+    .nav-open {
+        .header-content {
+            transform: translate3d(-300px,0,0);
+        }
+    }
+}

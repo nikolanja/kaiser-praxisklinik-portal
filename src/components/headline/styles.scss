@@ -1,0 +1,42 @@
+.headline {
+    display: inline-block;
+    border: solid 3px #09cde3;
+    border-width: 0 0 3px 0;
+    margin-bottom: 45px;
+
+    span.white-color {
+        color: #ffffff;
+        font-family: "Open Sans";
+        text-transform: uppercase;
+    }
+
+    span.gray-color {
+        color: #dddddd;
+        font-family: "Open Sans";
+        text-transform: uppercase;
+    }
+}
+
+@media only screen and (min-width: 500px){
+    .headline {
+
+        span.white-color, span.gray-color {
+
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 82px;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .headline {
+
+        span.white-color, span.gray-color {
+
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 62px;
+        }
+    }
+}

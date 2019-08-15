@@ -1,0 +1,656 @@
+.start-rellax {
+    width: 100%;
+
+    .subtitle span{
+        color: #4a4a4a;
+        font-family: "Open Sans";
+        font-weight: 700;
+    }
+
+    .headtitle span {
+        color: #4a4a4a;
+        font-family: "Open Sans";
+        font-weight: 700;
+    }
+
+    .content {
+        padding-top: 20px;
+
+        p {
+            color: #696969;
+            font-family: "Open Sans";
+            font-weight: 600;
+        }
+    }
+}
+
+.start-praxis {
+    width: 100%;
+
+    .start-praxis-container {
+        .praxis-logo {
+            padding-top: 18px;
+        }
+    }
+}
+
+.desc-para {
+    color: #4a4a4a;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.leistungen-logo-item-content{
+    border-radius: 0 30px;
+    padding: 33px 14px;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        height: 75px;
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    span {
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 23px;
+    }
+
+    p {
+        color: #ffffff;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
+        margin: 15px
+    }
+}
+
+.start-team .team-members .member-item {
+    img {
+        width: 183px;
+        height: 183px;
+        box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    .member-name {
+        padding-top: 17px;
+        
+        span{
+            color: #201f1f;
+            font-family: "Open Sans";
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+
+    .member-career {
+        padding-top: 5px;
+        span  {
+            color: #09cde3;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 24px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.start-kontakt .start-kontakt-container .kontakt-info .kontakt-item {
+    .title {
+        padding-bottom: 30px;
+        span {
+            color: #4a4a4a;
+            font-family: "Open Sans";
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 41px;
+        }
+    }
+
+    .content p {
+        color: #4a4a4a;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+}
+
+@media only screen and (min-width: 1176px){
+    .start-rellax {
+        height: 800px;
+        padding: 180px calc(50% - 568px);
+
+        .start-rellax-container {
+            width: 1136px;
+
+            .subtitle {
+                span {
+                    font-size: 32px;
+                    line-height: 70px;
+                }
+            }
+
+            .headtitle {
+                span {
+                    font-size: 60px;
+                    line-height: 70px;
+                }
+            }
+
+            .content {
+                width: 647px;
+                p {
+                    line-height: 24px;
+                    font-size: 14px;
+                } 
+            }
+        }
+    }
+
+    .start-praxis { 
+        padding: 200px calc(50% - 568px);
+        padding-bottom: 0;
+
+        .start-praxis-container {
+            width: 1136px;
+            display: flex;
+
+            .praxis-logo {
+                flex: 1;
+                display: inline;
+                padding-right: 80px;
+
+                img {
+                    width: 509px;
+                    height: auto
+                }
+            }
+
+            .praxis-content {
+                flex: 1;
+                width: 100%;
+            }
+        }
+    }
+
+    .start-leistungen {
+        padding: 190px calc(50% - 568px);
+        padding-bottom: 0;
+
+        .start-leistungen-container {
+            width: 1136px;
+            display: flex;
+            padding-bottom: 170px;
+
+            .leistungen-content {
+                flex: 1;
+            }
+
+            .leistungen-logo {
+                display: flex;
+                flex-wrap: wrap;
+                flex: 1;
+
+                .leistungen-logo-item{
+                    display: inline;
+                    
+                    &:nth-child(1) {
+                        padding: 40px 0 0 38px;
+
+                        .leistungen-logo-item-content {
+                            background: linear-gradient(138deg, #09CDE3, #9013FE);
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        padding: 100px 0 0 38px;
+
+                        .leistungen-logo-item-content {
+                            background: linear-gradient(138deg, #09CDE3, #9013FE);
+                        }
+                    }
+
+                    &:nth-child(3) {
+                        margin-top: -20px;
+                        padding: 0 38px 0 0 ;
+
+                        .leistungen-logo-item-content {
+                            background: linear-gradient(220deg, #09CDE3, #9013FE);
+                        }
+                    }
+
+                    &:nth-child(4) {
+                        padding: 40px 38px 0 0;
+
+                        .leistungen-logo-item-content {
+                            background: linear-gradient(162deg, #09CDE3, #9013FE);
+                        }
+                    }
+
+                    .leistungen-logo-item-content {
+                        width: 246px;
+                        height: 314px;
+                    }
+                }
+            }
+        }
+    }
+
+    .start-service {
+        height: 800px;
+        padding: 180px calc(50% - 568px);
+
+        .start-service-container {
+            width: 1136px;
+
+            .content {
+                width: 647px;
+                p {
+                    color: white;
+                    line-height: 27px;
+                    font-family: "Open Sans";
+                    font-size: 20px;
+                } 
+            }
+        }
+    }
+
+    .start-team{
+        padding: 200px calc(50% - 568px);
+        padding-bottom: 0;
+
+        .start-team-container {
+            width: 1136px;
+
+            .team-content {
+                width: 551px;
+            }
+
+            .team-members {
+                padding-top: 80px;
+                display: flex;
+
+                .member-item {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 50px;
+                }
+            }
+        }
+    }
+
+    .start-kontakt{
+        padding: 200px calc(50% - 568px);
+        padding-bottom: 0;
+
+        .start-kontakt-container {
+            width: 1136px;
+
+            .kontakt-content {
+                width: 551px;
+            }
+
+            .kontakt-info {
+                padding: 60px 0;
+                display: flex;
+
+                .kontakt-item {
+                    width: 33.3%
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1176px) and (min-width: 992px){
+
+    .start-rellax {
+        height: 700px;
+        padding: 180px 20px;
+        padding-bottom: 0;
+
+        .start-rellax-container {
+            width: 100%;
+
+            .subtitle {
+                span {
+                    font-size: 32px;
+                    line-height: 70px;
+                }
+            }
+
+            .headtitle {
+                span {
+                    font-size: 60px;
+                    line-height: 70px;
+                }
+            }
+
+            .content {
+                width: 647px;
+                p {
+                    line-height: 24px;
+                    font-size: 14px;
+                } 
+            }
+        }
+    }
+
+    .start-praxis {
+        padding: 200px 20px;
+        padding-bottom: 0;
+
+        .start-praxis-container {
+            display: flex;
+
+            .praxis-logo {
+                flex: 1;
+                display: inline;
+                padding-right: 80px;
+
+                img {
+                    width: 100%;
+                    height: auto
+                }
+            }
+
+            .praxis-content {
+                flex: 1;
+                width: 100%;
+            }
+        }
+    }
+
+    .start-leistungen {
+        padding: 190px 20px;
+        padding-bottom: 0;
+
+        .start-leistungen-container {
+            padding-bottom: 170px;
+
+            .leistungen-content {
+                max-width: 600px;
+            }
+
+            .leistungen-logo {
+                display: flex;
+                width: 100%;
+
+                .leistungen-logo-item{
+                    display: inline;
+                    padding: 40px 20px 0 20px;
+                    flex: 1;
+
+                    .leistungen-logo-item-content {
+                        width: 100%;
+                        height: 340px;
+                        background: linear-gradient(138deg, #09CDE3, #9013FE);
+                    }
+                }
+            }
+        }
+    }
+
+    .start-service {
+        height: 700px;
+        padding: 180px 20px;
+        padding-bottom: 0;
+
+        .start-service-container {
+            width: 100%;
+
+            .content {
+                width: 647px;
+
+                p {
+                    color: white;
+                    line-height: 27px;
+                    font-family: "Open Sans";
+                    font-size: 20px;
+                } 
+            }
+        }
+    }
+
+    .start-team{
+        padding: 200px 20px;
+        padding-bottom: 0;
+
+        .start-team-container {
+            width: 100%;
+
+            .team-content {
+                width: 551px;
+            }
+
+            .team-members {
+                padding-top: 80px;
+                display: flex;
+
+                .member-item {
+                    width: 25%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 25px;
+                }
+            }
+        }
+    }
+
+    .start-kontakt{
+        padding: 200px 20px;
+        padding-bottom: 0;
+
+        .start-kontakt-container {
+            width: 100%;
+
+            .kontakt-content {
+                width: 551px;
+            }
+
+            .kontakt-info {
+                padding: 60px 0;
+                display: flex;
+
+                .kontakt-item {
+                    width: 33.3%
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .start-rellax {
+        height: 500px;
+        padding-top: 80px;
+
+        .start-rellax-container {
+
+            .subtitle {
+                text-align: center;
+                span {
+                    font-size: 30px;
+                    line-height: 70px;
+                }
+            }
+
+            .headtitle {
+                text-align: center;
+                padding: 15px 0;
+                span {
+                    font-size: 50px;
+                    line-height: 40px;
+                }
+            }
+
+            .content {
+                text-align: center;
+                margin: 0 auto;
+                width: 300px;
+
+                p {
+                    line-height: 24px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .start-praxis {
+        padding: 100px 40px;
+        padding-bottom: 0;
+
+        .start-praxis-container {
+            text-align: center;
+
+            .praxis-logo {
+                img {
+                    height: auto
+                }
+            }
+
+            .praxis-content {
+                text-align: center
+            }
+        }
+    }
+
+    .start-leistungen {
+        padding: 100px 40px;
+        padding-bottom: 0;
+
+        .start-leistungen-container {
+            width: 100%;
+            text-align: center;
+            padding-bottom: 100px;
+
+            .leistungen-content {
+                
+            }
+
+            .leistungen-logo {
+                width: 100%;
+
+                .leistungen-logo-item{
+                    padding: 20px;
+
+                    .leistungen-logo-item-content {
+                        width: 200px;
+                        background: linear-gradient(138deg, #09CDE3, #9013FE);
+                    }
+                }
+            }
+        }
+    }
+
+    .start-service {
+        height: 500px;
+        padding-top: 80px;
+
+        .start-service-container {
+
+            .service-head {
+                text-align: center;
+            }
+
+            .content {
+                text-align: center;
+                margin: 0 auto;
+                width: 300px;
+
+                p {
+                    color: white;
+                    line-height: 27px;
+                    font-family: "Open Sans";
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .start-team{
+        padding: 100px 40px;
+        padding-bottom: 0;
+
+        .start-team-container {
+            width: 100%;
+            text-align: center;
+
+            .team-content {
+                text-align: center;
+            }
+
+            .team-members {
+                padding-top: 40px;
+                display: flex;
+                flex-wrap: wrap;
+
+                .member-item {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 20px 25px;
+                }
+            }
+        }
+    }
+
+    .start-kontakt{
+        padding: 100px 40px;
+        padding-bottom: 0;
+
+        .start-kontakt-container {
+            width: 100%;
+
+            .kontakt-content {
+                text-align: center;
+            }
+
+            .kontakt-info {
+                padding: 60px 0;
+
+                .kontakt-item {
+                    padding-bottom: 20px;
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+    .start-praxis .start-praxis-container .praxis-logo img {
+        width: 509px;
+        height: auto
+    }
+
+    .start-team .start-team-container .team-members .member-item {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .start-praxis .start-praxis-container .praxis-logo img {
+        width: 100%;
+        height: auto
+    }
+
+    .start-team .start-team-container .team-members .member-item {
+        width: 100%;
+    }
+}

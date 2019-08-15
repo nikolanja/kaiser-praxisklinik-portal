@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1176px){
+    .location-section {
+        margin: 200px 0;
+        width: 100%;
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width: 1176px) and (min-width: 992px){
+    .location-section {
+        margin: 150px 0;
+        width: 100%;
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .location-section {
+        margin: 100px 0;
+        width: 100%;
+        height: 450px;
+    }
+}

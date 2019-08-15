@@ -1,0 +1,106 @@
+.parallax {
+    margin-top: 27px;
+    margin-bottom: 70px;
+}
+
+.service-section .service-container .service-item {
+    .service-title {
+        display: flex;
+        align-items: center;
+
+        span {
+            color: #4a4a4a;
+            font-family: "Open Sans";
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 41px;
+        }
+    }
+
+    .service-content {
+        p {
+            color: #4a4a4a;
+            font-family: "Open Sans";
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 27px;
+            white-space: pre-line;
+        }
+    }
+}
+
+@media only screen and (min-width: 1176px){
+    .service-section {
+        padding: 0 480px 120px calc(50% - 568px); 
+        position: relative;
+
+        .service-container {
+            .service-item {
+                padding-bottom: 90px;
+
+                .service-title {
+                    padding-bottom: 28px;
+
+                    img {
+                        width: 81px;
+                        height: auto;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1176px) and (min-width: 992px){
+    .service-section {
+        padding: 0 480px 100px 20px;
+        position: relative;
+
+        .service-container {
+            .service-item {
+                padding-bottom: 90px;
+
+                .service-title {
+                    padding-bottom: 28px;
+
+                    img {
+                        width: 81px;
+                        height: auto;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .service-section {
+        padding: 0 40px 100px 40px;
+
+        .service-container {
+            margin-top: 80px;
+            .service-item {
+                padding-bottom: 90px;
+
+                .service-title {
+                    padding-bottom: 28px;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+
+                    img {
+                        width: 81px;
+                        height: auto;
+                        margin-right: 20px;
+                    }
+
+                    span {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.parallax-tab {
+
+    .head-title {
+        padding-bottom: 9px;
+        margin-bottom: 9px;
+        border: solid 3px #09cde3;
+        border-width: 0 0 3px 0;
+
+        span {
+            color: #dddddd;
+            font-family: "Open Sans";
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 41px;
+        }
+    }
+
+    .title {
+        padding-bottom: 23px;
+
+        span {
+            color: #dddddd;
+            font-family: "Open Sans";
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 27px;
+        }
+    }
+
+    .content {
+        ul.nav-parallax {
+            list-style: nonw;
+            padding: 0;
+
+            li {
+                height: 56px;
+                border-radius: 5px;
+                background: #09cde3;
+                display: flex;
+                align-items: center;
+                padding: 0 15px;
+
+                span {
+                    color: #ffffff;
+                    font-family: "Open Sans";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 27px;
+                }
+
+                &:hover {
+                    background: linear-gradient(138deg, #09CDE3, #9013FE);
+                    cursor: pointer;
+                }
+    
+                &:active {
+                    background: linear-gradient(222deg, #09CDE3, #9013FE);
+                }
+            }
+
+            li.active {
+                background: linear-gradient(138deg, #09CDE3, #9013FE);
+                box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .parallax-tab {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 400px;
+        margin: 0 40px;
+
+        ul li {
+            margin: 4px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-tab {
+        
+        width: 240px;
+        margin: 0 auto;
+
+        ul li {
+            margin: 4px 0;
+        }
+
+    }
+}
